@@ -7,7 +7,7 @@ import json
 import numpy as np
 import pandas as pd
 
-from fastapi.middleware import CORSMiddleware
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
