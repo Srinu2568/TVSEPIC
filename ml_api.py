@@ -7,15 +7,14 @@ import json
 import numpy as np
 import pandas as pd
 
-from fastapi.middleware import CORSMiddleware
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
-origins = ['*']
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins = origins,
+    allow_origins = ['*'],
     allow_credentials = True,
     allow_methods = ['*'],
     allow_headers = ['*'],
