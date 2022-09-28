@@ -3,5 +3,5 @@ pandas
 sklearn
 pydantic
 uvicorn
-pickle
+pickle5
 fastapi
